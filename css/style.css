@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F3EBDD;
+    color: #152c2f;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: #244B50;
+    color: #F3EBDD;
+    padding: 25px 6%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo h2 {
+    font-size: 24px;
+}
+
+.logo p {
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+nav {
+    display: flex;
+    gap: 40px;
+}
+
+nav a {
+    color: #F3EBDD;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+nav a:hover {
+    color: #D4A34F;
+}
+
+.apresentacao {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 20px 4%;
+}
+
+.texto-apresentacao {
+    flex: 1;
+    text-align: left;
+}
+
+.texto-apresentacao h1 {
+    font-size: 52px;
+    margin-bottom: 20px;
+}
+
+.texto-apresentacao p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.imagem-apresentacao {
+    flex: 1.3;
+}
+
+.imagem-apresentacao img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.link-paginas {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px 4%;
+    flex-wrap: wrap;
+}
+
+.card {
+    flex: 1;
+    min-width: 220px;
+    max-width: 300px;
+
+    background-color: #F3EBDD;
+    color: #244B50;
+
+    text-decoration: none;
+    border-radius: 12px;
+    overflow: hidden;
+
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.12);
+}
+
+.card img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    display: block;
+}
+
+.card-conteudo {
+    padding: 18px;
+}
+
+.card-conteudo h3 {
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.card-conteudo p {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+footer {
+    background-color: #244B50;
+    color: #F3EBDD;
+    text-align: center;
+    padding: 25px 20px;
+}
+
+footer p {
+    font-size: 14px;
+    margin-bottom: 8px;
+}
