@@ -136,3 +136,49 @@ footer p {
     font-size: 14px;
     margin-bottom: 8px;
 }
+
+.lista-tecnicas {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    padding: 30px 4%;
+}
+
+.card-tecnica {
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.12);
+}
+
+.card-tecnica img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+}
+
+.tecnica-conteudo {
+    padding: 20px;
+}
+
+.tecnica-conteudo h2 {
+    color: #B65E42;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.tecnica-conteudo h3 {
+    color: #244B50;
+    font-size: 17px;
+    margin-top: 15px;
+    margin-bottom: 8px;
+}
+
+.tecnica-conteudo p {
+    color: #333333;
+    font-size: 14px;
+    line-height: 1.6;
+    overflow-wrap: break-word;
+    white-space: normal;
+}
