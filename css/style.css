@@ -182,3 +182,20 @@ footer p {
     overflow-wrap: break-word;
     white-space: normal;
 }
+
+.titulo-tecnicas {
+    text-align: center;
+    padding: 45px 20px 20px;
+}
+
+.titulo-tecnicas h1 {
+    color: #B65E42;
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.titulo-tecnicas p {
+    color: #244B50;
+    font-size: 16px;
+    line-height: 1.6;
+}
