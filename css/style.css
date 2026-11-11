@@ -199,3 +199,65 @@ footer p {
     font-size: 16px;
     line-height: 1.6;
 }
+
+.botao-login {
+    background-color: #B65E42;
+    color: #F3EBDD;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.botao-login:hover {
+    background-color: #D4A34F;
+}
+
+.caixa-login {
+    background-color: #FFFFFF;
+    width: 400px;
+    margin: 60px auto;
+    padding: 35px;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.12);
+}
+
+.caixa-login h1 {
+    color: #B65E42;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.caixa-login p {
+    color: #244B50;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.caixa-login form {
+    display: flex;
+    flex-direction: column;
+}
+
+.caixa-login label {
+    color: #244B50;
+    margin-bottom: 7px;
+}
+
+.caixa-login input {
+    padding: 12px;
+    border: 1px solid #CCCCCC;
+    border-radius: 6px;
+    margin-bottom: 18px;
+}
+
+.caixa-login button {
+    background-color: #B65E42;
+    color: #F3EBDD;
+    border: none;
+    padding: 12px;
+    border-radius: 6px;
+    font-size: 15px;
+    cursor: pointer;
+}
